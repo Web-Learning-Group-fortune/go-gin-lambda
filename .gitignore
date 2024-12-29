@@ -1,0 +1,42 @@
+# 忽略编译生成的二进制文件
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.a
+*.o
+
+# 忽略临时文件
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+
+# 忽略 Go 模块和依赖的缓存文件
+vendor/
+go.sum
+*.mod~
+
+# 忽略测试缓存
+*.test
+*.prof
+
+# 忽略 IDE 和编辑器的临时文件
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.code-workspace
+
+# 忽略系统文件
+Thumbs.db
+desktop.ini
+
+# 忽略特定工具生成的文件
+.coverage
+*.coverprofile
+*.cover.out
+dist/
